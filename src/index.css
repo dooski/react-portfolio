@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  background-color: #F5F4C0;
+}
+
+hr {
+  background-color: #E7788D;
+  height: 4px
+}
+
+.navbar {
+  background-color: #354698;
+  border-bottom: solid #E7788D 9px;
+  height: 80px
+}
+
+.navbar-menu {
+      background-color: #354698;    
+}
+
+.section {
+  padding-top: 0px
+}
+
+a.navbar-item {
+  color: #F5F4C0;
+}
+
+a.navbar-item:hover {
+  background-color: #F5F4C0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10%;
+  box-shadow: 2px 3px #7C7AB0;
+  font-weight: 100;
+  font-style: italic;
+  color: #354698
+}
+
+img {
+  border: 10px solid #E7788D;
+  border-radius: 5px
+}
+
+.tile {
+  border-radius: 5px
+}
+
+.title {
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+
+#about-tile {
+  background-color: #354698;
+}
+
+#about-sub {
+  color: #F5F4C0;
+  margin:10px;
+  padding-bottom: 10px;
+}
+
+#about-title {
+  color: #F5F4C0;
+  font-style: italic;
+  margin-top:10px
+}
+
+#links {
+  background-color:  #E7788D;
+}
+
+#links-title {
+  color: black;
+  font-style:italic;
+  margin-top:10px;
+  margin-bottom: 0px
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-body {
+  background-color: #354698;
+  font-style: italic;
+  height: 150px
+}
+
+.hero .title {
+  color: #F5F4C0;
+}
+
+.column {
+  background-color: #354698;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 8px #E7788D
+}
+
+a {
+  color: #E7788D
+}
+
+.column .title {
+  font-size: large;
+  font-style: italic;
+  color:#F5F4C0;
+  padding: 5px;
+  padding-bottom: 0px
+}
+
+.column .subtitle {
+  font-size: medium;
+  color: #F5F4C0;
+}
+
+#footer {
+  height: 80px;
+  background-color: #354698;
+  border-top: 9px solid #E7788D
+}
+
+#footer p {
+  text-align: center;
+  color: #F5F4C0;
+  font-size: smaller;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1023px) {
+
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+align-items: stretch;
+display: flex
+}
+}
+
+@media screen and (max-width: 500px) {
+  .navbar, .navbar-end, .navbar-menu, .navbar-start {
+    font-size: 0.9em
+  }
+}
+
+@media screen and (max-width: 380px) {
+.navbar, .navbar-end, .navbar-menu, .navbar-start{
+display: block
+}
+}
